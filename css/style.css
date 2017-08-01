@@ -1,0 +1,127 @@
+body{
+	background-color: #EEEEEE;
+}
+.header{
+	background: url('../images/header-bg.png') repeat-x;
+	border-bottom: 1px solid white;
+}
+.holder{
+	padding: 0 10px 0 12px;
+}
+.logo{
+	padding: 22px 0 30px;
+}
+.logo a img{
+	display: inline-block;
+}
+.search{
+	padding: 38px 0px;
+}
+.input-group .form-control{
+	width: 42%;
+	float: right;
+	height: 28px;
+}
+.input-group .input-group-btn .search-btn{
+	background-color: #00B5E7;
+	color: white;
+	font-weight: bold;
+	font-size: 10px;
+	height: 28px;
+}
+.navigation{
+	background-color: #00B0E2;
+}
+.navbar-default .navbar-nav > li > a{
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	padding: 10px 13px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a.active{
+	background-color: black;
+	color:white;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar-default .navbar-collapse{
+	position: absolute;
+	z-index: 1;
+	background-color: #00B0E2;
+	width: 100%;
+}
+.artical{
+	margin: 15px 0 0 0 ;
+}
+.box{
+	border: 1px solid #F5F5F5;
+	background-color: white;
+	border-radius: 6px;
+	padding: 20px 20px 0;
+	margin: 10px 0px;
+}
+.box img{
+	border: 1px solid #F0F0F0;
+	padding: 5px;
+	background-color: #F7F7F7;
+}
+.pagebar{
+	text-align: center;
+}
+.pagination > li > a{
+	border: none;
+	float: none;
+	background: none;
+	color: black;
+}
+.pagination > li > a:hover, .pagination > li > a.active{
+	color: white;
+	background-color: black;
+}
+.pagination > li > a.page {
+	background-color: #00B0E2;
+	color: white;
+}
+.footer{
+	background-color: #1E1E1E;
+	color: white;
+}
+.footer-box{
+	border-bottom: 1px dotted #585757;
+	padding: 10px 0;
+	text-align: justify;
+}
+.footer-box p{
+	font-size: 12px;
+}
+.footer a{
+	color: #00B0E2;
+	text-decoration: none;
+	font-size: 12px;
+}
+.read-more{
+	float: right;
+}
+@media (min-width: 992px) {
+  .container {
+    width: 800px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+@media (max-width:768px) {
+	.search{
+		padding: 5px 0px;
+	}
+	.logo{
+		padding: 0px;
+	}
+	.input-group .form-control{
+		width: 100%;
+		float: none;
+	}
+}
